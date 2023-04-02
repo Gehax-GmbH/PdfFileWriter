@@ -802,8 +802,9 @@ namespace PdfFileWriter
 		////////////////////////////////////////////////////////////////////
 		public void SetEncryption()
 			{
-			SetEncryption(null, null, Permission.All, EncryptionType.Aes128);
-			return;
+            //SetEncryption(null, null, Permission.All, EncryptionType.Aes128);
+            SetEncryption(null, null, Permission.All, EncryptionType.Aes256);
+            return;
 			}
 
 		////////////////////////////////////////////////////////////////////
@@ -824,8 +825,9 @@ namespace PdfFileWriter
 				Permission Permissions
 				)
 			{
-			SetEncryption(null, null, Permissions, EncryptionType.Aes128);
-			return;
+            //SetEncryption(null, null, Permissions, EncryptionType.Aes128);
+            SetEncryption(null, null, Permissions, EncryptionType.Aes256);
+            return;
 			}
 
 		////////////////////////////////////////////////////////////////////
@@ -850,8 +852,9 @@ namespace PdfFileWriter
 				Permission Permissions
 				)
 			{
-			SetEncryption(UserPassword, null, Permissions, EncryptionType.Aes128);
-			return;
+            //SetEncryption(UserPassword, null, Permissions, EncryptionType.Aes128);
+            SetEncryption(UserPassword, null, Permissions, EncryptionType.Aes256);
+            return;
 			}
 
 		////////////////////////////////////////////////////////////////////
@@ -878,8 +881,9 @@ namespace PdfFileWriter
 				string UserPassword,
 				string OwnerPassword,
 				Permission Permissions,
-				EncryptionType EncryptionType = EncryptionType.Aes128
-				)
+                //EncryptionType EncryptionType = EncryptionType.Aes128
+                EncryptionType EncryptionType = EncryptionType.Aes256
+                )
 			{
 			// encryption can be set only once
 			if(Encryption != null) throw new ApplicationException("Encryption is already set");

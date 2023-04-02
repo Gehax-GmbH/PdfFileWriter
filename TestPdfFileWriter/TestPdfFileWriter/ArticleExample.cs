@@ -82,7 +82,7 @@ namespace TestPdfFileWriter
 
 			// for encryption test
 			// Document.SetEncryption(null, null, Permission.All & ~Permission.Print, EncryptionType.Aes128);
-			// Document.SetEncryption("userpw", "ownerpw", Permission.All & ~Permission.Print, EncryptionType.Aes128);
+			Document.SetEncryption("userpw", "ownerpw", Permission.All & ~Permission.Print, EncryptionType.Aes256);
 
 			// Debug property
 			// By default it is set to false. Use it for debugging only.

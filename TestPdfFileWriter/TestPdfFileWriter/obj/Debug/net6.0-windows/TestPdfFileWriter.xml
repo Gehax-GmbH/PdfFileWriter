@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestPdfFileWriter</name>
+    </assembly>
+    <members>
+        <member name="T:TestPdfFileWriter.ArticleExample">
+            <summary>
+            Article example class 
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.ArticleExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create article's example test PDF document
+            </summary>
+            <param name="Debug">Debug flag</param>
+            <param name="FileName">PDF file name</param>
+        </member>
+        <member name="T:TestPdfFileWriter.CustomDataGridView">
+            <summary>
+            Custom data grid view
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.CustomDataGridView.#ctor(System.Windows.Forms.Form,System.Boolean)">
+            <summary>
+            Custom data grid view constructor
+            </summary>
+            <param name="ParentForm">Parent windows form</param>
+            <param name="Center">Alignment is middle center</param>
+        </member>
+        <member name="M:TestPdfFileWriter.CustomDataGridView.GetSelection">
+            <summary>
+            user pressed view button to display character 
+            </summary>
+            <returns>Selection object</returns>
+        </member>
+        <member name="T:TestPdfFileWriter.DrawGlyphForm">
+            <summary>
+            Draw glyph form
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.DrawGlyphForm.#ctor(System.Drawing.FontFamily,System.Drawing.FontStyle,System.Int32)">
+            <summary>
+            Draw glyph form constructor
+            </summary>
+            <param name="FontFamily">Font family name</param>
+            <param name="Style">Font style</param>
+            <param name="CharCode">Character code</param>
+        </member>
+        <member name="F:TestPdfFileWriter.DrawGlyphForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.DrawGlyphForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TestPdfFileWriter.DrawGlyphForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TestPdfFileWriter.EnumFontFamilies">
+            <summary>
+            Test font api main program
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.EnumFontFamilies.#ctor">
+            <summary>
+            Test font api class constructor 
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.EnumFontFamilies.OnCellFormatting(System.Object,System.Windows.Forms.DataGridViewCellFormattingEventArgs)">
+            <summary>
+            Format sample text to font family
+            </summary>
+            <param name="sender">Sander</param>
+            <param name="e">Event</param>
+        </member>
+        <member name="F:TestPdfFileWriter.EnumFontFamilies.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.EnumFontFamilies.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TestPdfFileWriter.EnumFontFamilies.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TestPdfFileWriter.ExceptionReport">
+            <summary>
+            Exception report 
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.ExceptionReport.GetMessageAndStack(System.Exception)">
+            <summary>
+            Get exception message and exception stack
+            </summary>
+            <param name="Ex">Exception class</param>
+            <returns>Message string</returns>
+        </member>
+        <member name="T:TestPdfFileWriter.FontInfoForm">
+            <summary>
+            Display metrics for characters range 
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.FontInfoForm.#ctor(System.Drawing.FontFamily)">
+            <summary>
+            Font info form constructor 
+            </summary>
+            <param name="FontFamily">Font family</param>
+        </member>
+        <member name="F:TestPdfFileWriter.FontInfoForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.FontInfoForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TestPdfFileWriter.FontInfoForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TestPdfFileWriter.FormExample">
+            <summary>
+            PDF Form example
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create fillable form PDF document
+            </summary>
+            <param name="FileName">PDF file name</param>
+            <param name="Debug">Debug flag</param>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddTextField(System.Double,System.Double,System.Double@,System.Double@,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Add text field
+            </summary>
+            <param name="OrigX">Field's left origin</param>
+            <param name="OrigY">Field's top origin</param>
+            <param name="Width">Returned overall width</param>
+            <param name="Height">Returned overall height</param>
+            <param name="FieldDescription">Field description</param>
+            <param name="FieldName">Field name</param>
+            <param name="FieldValue">Field value</param>
+            <param name="TextMaxLength">Field maximum length</param>
+            <returns>PDF acro text field object</returns>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddButtonField(PdfFileWriter.PdfRectangle,System.String,System.String,System.Object)">
+            <summary>
+            Add button field
+            </summary>
+            <param name="Rect">Button's rectangle</param>
+            <param name="FieldName">Field name</param>
+            <param name="Caption">Caption</param>
+            <param name="ActionCode">Action code</param>
+            <exception cref="T:System.ApplicationException">Action must be either named action or java script</exception>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddRadioButtonsGroup(System.Double,System.Double,System.Double@,System.Double@,System.String,System.String,System.String[])">
+            <summary>
+            Add radio buttons group
+            </summary>
+            <param name="PosX">Field's left origin</param>
+            <param name="PosY">Field's top origin</param>
+            <param name="Width">Returned overall width</param>
+            <param name="Height">Returned overall height</param>
+            <param name="GroupDescription">Group description</param>
+            <param name="GroupName">Group name</param>
+            <param name="ButtonDescription">Buttons description array</param>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddRadioButton(PdfFileWriter.PdfRectangle,System.String,System.String,System.Boolean)">
+            <summary>
+            Add radio button
+            </summary>
+            <param name="Rect">Button's rectangle</param>
+            <param name="GroupName">Group button belongs to</param>
+            <param name="OnStateName">On-State name</param>
+            <param name="InitialCheck">Initial check mark</param>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddComboBoxField(PdfFileWriter.PdfRectangle,System.String,System.String,System.String[])">
+            <summary>
+            Add combo box
+            </summary>
+            <param name="BoxRect">Box rectangle</param>
+            <param name="FieldName">Field name</param>
+            <param name="FieldValue">Field value</param>
+            <param name="Items">Items array</param>
+        </member>
+        <member name="M:TestPdfFileWriter.FormExample.AddCheckBoxField(PdfFileWriter.PdfRectangle,System.String,System.String,System.Char,System.Boolean)">
+            <summary>
+            Add check box field
+            </summary>
+            <param name="Rect">Check field rectangle</param>
+            <param name="FieldName">Field name</param>
+            <param name="OnStateName">On-State name</param>
+            <param name="ZaDiChar">Display character</param>
+            <param name="InitialCheck">Field initially checked</param>
+        </member>
+        <member name="T:TestPdfFileWriter.LayersExample">
+            <summary>
+            Layers example
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.LayersExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create layers example PDF document
+            </summary>
+            <param name="FileName">PDF file name</param>
+            <param name="Debug">Debug flag</param>
+        </member>
+        <member name="T:TestPdfFileWriter.OtherExample">
+            <summary>
+            Other example
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.OtherExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create test PDF document
+            </summary>
+            <param name="FileName">PDF file name</param>
+            <param name="Debug">Debug flag</param>
+        </member>
+        <member name="T:TestPdfFileWriter.PrintExample">
+            <summary>
+            Print example
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.PrintExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create print example PDF document
+            </summary>
+            <param name="FileName">PDF file name</param>
+            <param name="Debug">Debug flag</param>
+        </member>
+        <member name="M:TestPdfFileWriter.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:TestPdfFileWriter.TableExample">
+            <summary>
+            Table example
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.TableExample.Test(System.String,System.Boolean)">
+            <summary>
+            Create table example PDF document
+            </summary>
+            <param name="FileName">PDF file name</param>
+            <param name="Debug">Debug flag</param>
+        </member>
+        <member name="T:TestPdfFileWriter.TestPdfFileWriter">
+            <summary>
+            Test PDF file writer demo program
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.TestPdfFileWriter.#ctor">
+            <summary>
+            Test PDF file writer demo program constructor
+            </summary>
+        </member>
+        <member name="F:TestPdfFileWriter.TestPdfFileWriter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.TestPdfFileWriter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TestPdfFileWriter.TestPdfFileWriter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TestPdfFileWriter.Trace">
+            <summary>
+            Trase class for debugging
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.Trace.Open(System.String)">
+            <summary>
+            Open trace file
+            </summary>
+            <param name="FileName">Trace file name</param>
+        </member>
+        <member name="M:TestPdfFileWriter.Trace.Write(System.String)">
+            <summary>
+            Write to trace file 
+            </summary>
+            <param name="Message">Trace message</param>
+        </member>
+        <member name="T:TestPdfFileWriter.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:TestPdfFileWriter.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

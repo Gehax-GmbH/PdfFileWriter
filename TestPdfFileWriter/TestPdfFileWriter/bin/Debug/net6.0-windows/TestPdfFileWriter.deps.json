@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestPdfFileWriter/2.0.0": {
+        "dependencies": {
+          "PdfFileWriterII": "2.0.0",
+          "PdfFileWriter": "2.0.0.0"
+        },
+        "runtime": {
+          "TestPdfFileWriter.dll": {}
+        }
+      },
+      "PdfFileWriterII/2.0.0": {
+        "runtime": {
+          "PdfFileWriter.dll": {}
+        }
+      },
+      "PdfFileWriter/2.0.0.0": {
+        "runtime": {
+          "PdfFileWriter.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestPdfFileWriter/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PdfFileWriterII/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PdfFileWriter/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TestPdfFileWriterNet6</id>
+    <version>2.0.0</version>
+    <authors>Uzi Granot</authors>
+    <license type="expression">CPOL-1.02</license>
+    <licenseUrl>https://licenses.nuget.org/CPOL-1.02</licenseUrl>
+    <readme>README.md</readme>
+    <description>Test program for PDF File Write C# Class Library developed using VS 2022 for .NET 6.0</description>
+    <copyright>Copyright (C) 2013-2022 Uzi Granot. All Rights Reserved</copyright>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="PdfFileWriterII" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.runtimeconfig.json" target="lib\net6.0-windows7.0\TestPdfFileWriter.runtimeconfig.json" />
+    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.dll" target="lib\net6.0-windows7.0\TestPdfFileWriter.dll" />
+    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.xml" target="lib\net6.0-windows7.0\TestPdfFileWriter.xml" />
+    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\README.md" target="\README.md" />
+  </files>
+</package>

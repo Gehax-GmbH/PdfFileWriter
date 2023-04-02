@@ -1,0 +1,14 @@
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.csproj.AssemblyReference.cache
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.AssemblyInfoInputs.cache
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.AssemblyInfo.cs
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.csproj.CoreCompileInputs.cache
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.deps.json
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.dll
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.pdb
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.xml
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.dll
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\refint\PdfFileWriter.dll
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.xml
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.pdb
+C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\ref\PdfFileWriter.dll
