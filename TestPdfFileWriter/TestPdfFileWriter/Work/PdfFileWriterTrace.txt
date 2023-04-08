@@ -95,3 +95,54 @@
 2023/04/02 02:45:07 ----
 2023/04/02 02:45:07 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
 2023/04/02 02:45:48 PDF file writer is closing
+2023/04/02 08:43:05 ----
+2023/04/02 08:43:05 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:44:24 ----
+2023/04/02 08:44:24 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:45:00 PDF file writer is closing
+2023/04/02 08:54:26 ----
+2023/04/02 08:54:26 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:55:36 ----
+2023/04/02 08:55:36 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:55:47 Specified initialization vector (IV) does not match the block size for this algorithm.
+2023/04/02 08:55:47    at PdfFileWriter.AesHelperExtensions.AESEncrypt(Byte[] data, Byte[] key, Byte[] iv, Int32 keySize, Int32 blockSize, PaddingMode paddingMode)
+2023/04/02 08:55:47    at PdfFileWriter.PdfEncryption..ctor(PdfDocument Document, String UserPassword, String OwnerPassword, Permission UserPermissions, EncryptionType EncryptionType)
+2023/04/02 08:55:47    at PdfFileWriter.PdfDocument.SetEncryption(String UserPassword, String OwnerPassword, Permission Permissions, EncryptionType EncryptionType)
+2023/04/02 08:55:47    at TestPdfFileWriter.ArticleExample.Test(String FileName, Boolean Debug) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\ArticleExample.cs:line 85
+2023/04/02 08:55:47    at TestPdfFileWriter.TestPdfFileWriter.OnArticleExample(Object sender, EventArgs e) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\TestPdfFileWriter.cs:line 115
+2023/04/02 08:55:49 The process cannot access the file 'C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\Work\Examples\ArticleExample.pdf' because it is being used by another process.
+2023/04/02 08:55:49    at PdfFileWriter.PdfDocument.ConstructorHelper(Double Width, Double Height, Double ScaleFactor, String FileName, Stream OutputStream)
+2023/04/02 08:55:49    at PdfFileWriter.PdfDocument..ctor(PaperType PaperType, Boolean Landscape, UnitOfMeasure UnitOfMeasure, String FileName)
+2023/04/02 08:55:49    at TestPdfFileWriter.ArticleExample.Test(String FileName, Boolean Debug) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\ArticleExample.cs:line 81
+2023/04/02 08:55:49    at TestPdfFileWriter.TestPdfFileWriter.OnArticleExample(Object sender, EventArgs e) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\TestPdfFileWriter.cs:line 115
+2023/04/02 08:55:53 PDF file writer is closing
+2023/04/02 08:55:58 ----
+2023/04/02 08:55:58 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:55:59 Specified initialization vector (IV) does not match the block size for this algorithm.
+2023/04/02 08:55:59    at PdfFileWriter.AesHelperExtensions.AESEncrypt(Byte[] data, Byte[] key, Byte[] iv, Int32 keySize, Int32 blockSize, PaddingMode paddingMode) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\PdfEncryption.cs:line 1051
+2023/04/02 08:55:59    at PdfFileWriter.PdfEncryption..ctor(PdfDocument Document, String UserPassword, String OwnerPassword, Permission UserPermissions, EncryptionType EncryptionType) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\PdfEncryption.cs:line 273
+2023/04/02 08:55:59    at PdfFileWriter.PdfDocument.SetEncryption(String UserPassword, String OwnerPassword, Permission Permissions, EncryptionType EncryptionType) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\PdfDocument.cs:line 892
+2023/04/02 08:55:59    at TestPdfFileWriter.ArticleExample.Test(String FileName, Boolean Debug) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\ArticleExample.cs:line 85
+2023/04/02 08:55:59    at TestPdfFileWriter.TestPdfFileWriter.OnArticleExample(Object sender, EventArgs e) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\TestPdfFileWriter.cs:line 115
+2023/04/02 08:56:05 PDF file writer is closing
+2023/04/02 08:56:48 ----
+2023/04/02 08:56:48 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:58:18 ----
+2023/04/02 08:58:18 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/02 08:58:58 ----
+2023/04/02 08:58:58 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/04 21:06:38 ----
+2023/04/04 21:06:38 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/05 00:01:57 ----
+2023/04/05 00:01:57 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/05 00:02:50 ----
+2023/04/05 00:02:50 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/05 00:05:35 ----
+2023/04/05 00:05:35 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot
+2023/04/05 00:06:02 The process cannot access the file 'C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\Work\Examples\ArticleExample.pdf' because it is being used by another process.
+2023/04/05 00:06:02    at PdfFileWriter.PdfDocument.ConstructorHelper(Double Width, Double Height, Double ScaleFactor, String FileName, Stream OutputStream) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\PdfDocument.cs:line 772
+2023/04/05 00:06:02    at PdfFileWriter.PdfDocument..ctor(PaperType PaperType, Boolean Landscape, UnitOfMeasure UnitOfMeasure, String FileName) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\PdfDocument.cs:line 676
+2023/04/05 00:06:02    at TestPdfFileWriter.ArticleExample.Test(String FileName, Boolean Debug) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\ArticleExample.cs:line 81
+2023/04/05 00:06:02    at TestPdfFileWriter.TestPdfFileWriter.OnArticleExample(Object sender, EventArgs e) in C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\TestPdfFileWriter.cs:line 115
+2023/04/05 00:10:35 ----
+2023/04/05 00:10:35 PdfFileWriterII 2.0.0 2022/02/01-© 2013-2022 Uzi Granot

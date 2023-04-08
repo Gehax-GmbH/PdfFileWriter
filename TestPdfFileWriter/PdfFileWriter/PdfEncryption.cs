@@ -144,7 +144,10 @@ namespace PdfFileWriter
 		//internal AesCryptoServiceProvider AES = new AesCryptoServiceProvider();
 		internal Aes AES = Aes.Create();
 
-		private static readonly byte[] PasswordPad =
+        internal byte[] nextObjectKey;
+        internal int nextObjectKeySize;
+
+        private static readonly byte[] PasswordPad =
 			{
 			(byte) 0x28, (byte) 0xBF, (byte) 0x4E, (byte) 0x5E, (byte) 0x4E, (byte) 0x75, (byte) 0x8A, (byte) 0x41,
 			(byte) 0x64, (byte) 0x00, (byte) 0x4E, (byte) 0x56, (byte) 0xFF, (byte) 0xFA, (byte) 0x01, (byte) 0x08,
@@ -216,9 +219,6 @@ namespace PdfFileWriter
 				}
             else if (EncryptionType == EncryptionType.Aes256)
             {
-                byte[] nextObjectKey;
-                int nextObjectKeySize;
-
                 int PERMS_MASK_1_FOR_REVISION_2 = unchecked((int)(0xffffffc0));
                 int PERMS_MASK_1_FOR_REVISION_3_OR_GREATER = unchecked((int)(0xfffff0c0));
                 int PERMS_MASK_2 = unchecked((int)(0xfffffffc));
@@ -403,12 +403,13 @@ namespace PdfFileWriter
                 AES.GenerateIV();
 
                 // create cipher text buffer including initialization vector
-                int CipherTextLen = (PlainText.Length & 0x7ffffff0) + 32;
-                CipherText = new byte[CipherTextLen + 32];
+                int CipherTextLen = (PlainText.Length & 0x7ffffff0) + 16;
+                CipherText = new byte[CipherTextLen + 16];
                 Array.Copy(AES.IV, 0, CipherText, 0, 16);
 
                 // set encryption key and key length
-                AES.Key = EncryptionKey;
+                //AES.Key = EncryptionKey;
+                AES.Key = nextObjectKey;
 
                 // Create the streams used for encryption.
                 MemoryStream OutputStream = new MemoryStream();
@@ -553,7 +554,8 @@ namespace PdfFileWriter
 				)
 			{
             //byte[] HashInput = new byte[MasterKey.Length + 5 + (EncryptionType == EncryptionType.Aes128 ? Salt.Length : 0)];
-            byte[] HashInput = new byte[MasterKey.Length + 5 + (EncryptionType == EncryptionType.Aes128 || EncryptionType == EncryptionType.Aes256 ? Salt.Length : 0)];
+            bool isAES = EncryptionType == EncryptionType.Aes128 || EncryptionType == EncryptionType.Aes256;
+            byte[] HashInput = new byte[MasterKey.Length + 5 + (isAES ? Salt.Length : 0)];
             int Ptr = 0;
 			Array.Copy(MasterKey, 0, HashInput, Ptr, MasterKey.Length);
 			Ptr += MasterKey.Length;
@@ -562,8 +564,9 @@ namespace PdfFileWriter
 			HashInput[Ptr++] = (byte) (ObjectNumber >> 16);
 			HashInput[Ptr++] = 0;   // Generation is always zero for this library
 			HashInput[Ptr++] = 0;   // Generation is always zero for this library
-                                    //if(EncryptionType == EncryptionType.Aes128) Array.Copy(Salt, 0, HashInput, Ptr, Salt.Length);
-            if (EncryptionType == EncryptionType.Aes128 || EncryptionType == EncryptionType.Aes256) Array.Copy(Salt, 0, HashInput, Ptr, Salt.Length);
+
+            //if(EncryptionType == EncryptionType.Aes128) Array.Copy(Salt, 0, HashInput, Ptr, Salt.Length);
+            if (isAES) Array.Copy(Salt, 0, HashInput, Ptr, Salt.Length);
             byte[] EncryptionKey = MD5.ComputeHash(HashInput);
 			if(EncryptionKey.Length > 16) Array.Resize<byte>(ref EncryptionKey, 16);
 			return EncryptionKey;
