@@ -12,3 +12,17 @@ C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\De
 C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.xml
 C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.pdb
 C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\ref\PdfFileWriter.dll
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.deps.json
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.dll
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.pdb
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net6.0-windows\PdfFileWriter.xml
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.AssemblyInfo.cs
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.sourcelink.json
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.dll
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\refint\PdfFileWriter.dll
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.xml
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\PdfFileWriter.pdb
+C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\obj\Debug\net6.0-windows\ref\PdfFileWriter.dll

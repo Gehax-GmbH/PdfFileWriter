@@ -1,6 +1,6 @@
 # PdfFileWriterII
 
-# Version 2.0.0 2022/02/01
+# Version 2.1.0 2024/11/12
 
 The PDF File Writer II C# class library allows you to create PDF files directly from your .NET application. 
 The library shields you from the details of the PDF file structure. This version of the PDF File Writer 
@@ -8,7 +8,7 @@ library was developed using Visual Studio 2022.
 
 Please note these settings of the PdfFileWriter library properties:
 
-Target framework: .NET 6.0
+Target framework: .NET 8.0
 
 Target OS: Windows
 

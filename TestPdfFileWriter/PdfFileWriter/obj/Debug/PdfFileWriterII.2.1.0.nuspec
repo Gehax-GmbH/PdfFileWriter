@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PdfFileWriterII</id>
+    <version>2.1.0</version>
+    <authors>Uzi Granot, Gehax GmbH</authors>
+    <license type="expression">CPOL-1.02</license>
+    <licenseUrl>https://licenses.nuget.org/CPOL-1.02</licenseUrl>
+    <readme>README.md</readme>
+    <description>PDF File Writer C# Class Library for VS2022 and .NET8</description>
+    <copyright>Copyright (C) 2013-2022 Uzi Granot. Copyright (C) 2022-2024 Gehax GmbH. All Rights Reserved</copyright>
+    <repository type="git" commit="4576571c5e3effceb37e5e3c0c96923bb506b9c4" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net8.0-windows\PdfFileWriter.dll" target="lib\net8.0-windows7.0\PdfFileWriter.dll" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\PdfFileWriter\bin\Debug\net8.0-windows\PdfFileWriter.xml" target="lib\net8.0-windows7.0\PdfFileWriter.xml" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\README.md" target="\README.md" />
+  </files>
+</package>

@@ -9,21 +9,22 @@
     <readme>README.md</readme>
     <description>Test program for PDF File Write C# Class Library developed using VS 2022 for .NET 6.0</description>
     <copyright>Copyright (C) 2013-2022 Uzi Granot. All Rights Reserved</copyright>
+    <repository type="git" commit="4576571c5e3effceb37e5e3c0c96923bb506b9c4" />
     <dependencies>
-      <group targetFramework="net6.0-windows7.0">
-        <dependency id="PdfFileWriterII" version="2.0.0" exclude="Build,Analyzers" />
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="PdfFileWriterII" version="2.1.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <frameworkReferences>
-      <group targetFramework="net6.0-windows7.0">
+      <group targetFramework="net8.0-windows7.0">
         <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
       </group>
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.runtimeconfig.json" target="lib\net6.0-windows7.0\TestPdfFileWriter.runtimeconfig.json" />
-    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.dll" target="lib\net6.0-windows7.0\TestPdfFileWriter.dll" />
-    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net6.0-windows\TestPdfFileWriter.xml" target="lib\net6.0-windows7.0\TestPdfFileWriter.xml" />
-    <file src="C:\Users\thbui\source\repos\PdfFileWriter\TestPdfFileWriter\README.md" target="\README.md" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net8.0-windows\TestPdfFileWriter.runtimeconfig.json" target="lib\net8.0-windows7.0\TestPdfFileWriter.runtimeconfig.json" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net8.0-windows\TestPdfFileWriter.dll" target="lib\net8.0-windows7.0\TestPdfFileWriter.dll" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\TestPdfFileWriter\bin\Debug\net8.0-windows\TestPdfFileWriter.xml" target="lib\net8.0-windows7.0\TestPdfFileWriter.xml" />
+    <file src="C:\Users\User\source\repos\Gehax-GmbH\PdfFileWriter\TestPdfFileWriter\README.md" target="\README.md" />
   </files>
 </package>
